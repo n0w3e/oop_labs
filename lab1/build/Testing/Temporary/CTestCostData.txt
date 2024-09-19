@@ -1,0 +1,2 @@
+CountOnesTests 2 0.162243
+---

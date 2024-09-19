@@ -1,0 +1,53 @@
+Start testing: Sep 19 16:23 MSK
+----------------------------------------------------------
+1/1 Testing: CountOnesTests
+1/1 Test: CountOnesTests
+Command: "/Users/evgenijstepanov/VSCODE/OOP/oop_labs/lab1/build/tests"
+Directory: /Users/evgenijstepanov/VSCODE/OOP/oop_labs/lab1/build
+"CountOnesTests" start time: Sep 19 16:23 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 6 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from CountOnesTest1
+[ RUN      ] CountOnesTest1.Range2To7
+[       OK ] CountOnesTest1.Range2To7 (0 ms)
+[----------] 1 test from CountOnesTest1 (0 ms total)
+
+[----------] 1 test from CountOnesTest2
+[ RUN      ] CountOnesTest2.Range0To0
+[       OK ] CountOnesTest2.Range0To0 (0 ms)
+[----------] 1 test from CountOnesTest2 (0 ms total)
+
+[----------] 1 test from CountOnesTest3
+[ RUN      ] CountOnesTest3.Range1To1
+[       OK ] CountOnesTest3.Range1To1 (0 ms)
+[----------] 1 test from CountOnesTest3 (0 ms total)
+
+[----------] 1 test from CountOnesTest4
+[ RUN      ] CountOnesTest4.Range5To10
+[       OK ] CountOnesTest4.Range5To10 (0 ms)
+[----------] 1 test from CountOnesTest4 (0 ms total)
+
+[----------] 1 test from CountOnesTest5
+[ RUN      ] CountOnesTest5.Range15To20
+[       OK ] CountOnesTest5.Range15To20 (0 ms)
+[----------] 1 test from CountOnesTest5 (0 ms total)
+
+[----------] 1 test from CountOnesTest6
+[ RUN      ] CountOnesTest6.Range0To1
+[       OK ] CountOnesTest6.Range0To1 (0 ms)
+[----------] 1 test from CountOnesTest6 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 6 test suites ran. (0 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"CountOnesTests" end time: Sep 19 16:23 MSK
+"CountOnesTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 19 16:23 MSK
