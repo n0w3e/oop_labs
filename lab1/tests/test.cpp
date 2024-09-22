@@ -2,27 +2,45 @@
 #include "../count.h"
 
 TEST(CountOnesTest1, Range2To7) {
-    EXPECT_EQ(count_one_in_range(2, 7), 11);
+    int a = 2;
+    int b = 7;
+    int result = count_one_in_range(a, b);
+    ASSERT_TRUE(result == 11);
 }
 
 TEST(CountOnesTest2, Range0To0) {
-    EXPECT_EQ(count_one_in_range(0, 0), 0);
+    int a = 0;
+    int b = 0;
+    int result = count_one_in_range(a, b);
+    ASSERT_TRUE(result == 0);
 }
 
 TEST(CountOnesTest3, Range1To1) {
-    EXPECT_EQ(count_one_in_range(1, 1), 1);
+    int a = 1;
+    int b = 1;
+    int result = count_one_in_range(a, b);
+    ASSERT_TRUE(result == 1);
 }
 
 TEST(CountOnesTest4, Range5To10) {
-    EXPECT_EQ(count_one_in_range(5, 10), 12);
+    int a = 5;
+    int b = 10;
+    int result = count_one_in_range(a, b);
+    ASSERT_TRUE(result == 12);
 }
 
 TEST(CountOnesTest5, Range15To20) {
-    EXPECT_EQ(count_one_in_range(15, 20), 14);
+    int a = 15;
+    int b = 20;
+    int result = count_one_in_range(a, b);
+    ASSERT_TRUE(result == 14);
 }
 
 TEST(CountOnesTest6, Range0To1) {
-    EXPECT_EQ(count_one_in_range(0, 1), 1);
+    int a = 0;
+    int b = 1;
+    int result = count_one_in_range(a, b);
+    ASSERT_TRUE(result == 1);
 }
 
 // Функция для запуска тестов
