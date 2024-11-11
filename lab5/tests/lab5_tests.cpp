@@ -7,7 +7,8 @@ struct ComplexType {
     double value;
     ComplexType(int id, double value) : id(id), value(value) {}
 };
-/*
+
+
 TEST(MemoryResourceTest, AllocationDeallocation) {
     FixedMemoryResource memoryResource(32, 5);
     
@@ -16,11 +17,11 @@ TEST(MemoryResourceTest, AllocationDeallocation) {
 
     memoryResource.deallocate(ptr1, 32);
     memoryResource.deallocate(ptr2, 32);
-    
+
     void* ptr3 = memoryResource.allocate(32);
     EXPECT_EQ(ptr3, ptr1);
 }
-*/
+
 
 TEST(DynamicArrayTest, PushBackAndAccess) {
     FixedMemoryResource memoryResource(32, 10);
